@@ -4,7 +4,7 @@
   "description": "A Design System made in React and Tailwind",
   "repository": {
     "type": "git",
-    "url": "https://github.com/freier-dev/heiterkeit-ui.git"
+    "url": "git+https://github.com/freier-dev/heiterkeit-ui.git"
   },
   "source": "src/index.ts",
   "main": "dist/index.cjs",
@@ -15,9 +15,13 @@
     "build": "parcel build",
     "test": "echo \"No test specified\"",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=2c7b7e909b85"
   },
-  "author": "Aro Andriamaro <mamitiana.dev.js@gmail.com>",
+  "author": {
+    "name": "Aro Andriamaro",
+    "email": "mamitiana.dev.js@gmail.com"
+  },
   "license": "MIT",
   "files": [
     "/dist"
@@ -38,6 +42,7 @@
     "@types/node": "^18.13.0",
     "@types/react": "^18.0.28",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.0",
     "parcel": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -52,5 +57,10 @@
     "node": "16.19.0",
     "npm": "7.24.2"
   },
-  "dependencies": {}
+  "bugs": {
+    "url": "https://github.com/freier-dev/heiterkeit-ui/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/freier-dev/heiterkeit-ui#readme",
+  "_id": "@freier-dev/heiterkeit-ui@0.3.0"
 }
