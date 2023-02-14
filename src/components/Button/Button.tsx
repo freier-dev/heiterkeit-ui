@@ -1,7 +1,8 @@
-import { ReactNode } from "react";
-
 interface Props {
-  children: ReactNode;
+  /**
+   * Button label
+   */
+  children: string;
 }
 export default function Button(props: Props) {
   const { children } = props;
