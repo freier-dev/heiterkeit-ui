@@ -16,7 +16,7 @@
     "test": "echo \"No test specified\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=2c7b7e909b85"
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "author": {
     "name": "Aro Andriamaro",
