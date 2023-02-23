@@ -14,7 +14,8 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
       name: "HeiterkeitUI",
-      fileName: "index",
+      formats: ["es", "umd"],
+      fileName: (format) => `heiterkeit-ui.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
