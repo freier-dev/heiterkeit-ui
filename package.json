@@ -1,6 +1,6 @@
 {
   "name": "@freier-dev/heiterkeit-ui",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A Design System made in React and Tailwind",
   "repository": {
     "type": "git",
@@ -61,6 +61,5 @@
     "url": "https://github.com/freier-dev/heiterkeit-ui/issues"
   },
   "readme": "ERROR: No README data found!",
-  "homepage": "https://github.com/freier-dev/heiterkeit-ui#readme",
-  "_id": "@freier-dev/heiterkeit-ui@0.3.0"
+  "homepage": "https://github.com/freier-dev/heiterkeit-ui#readme"
 }
