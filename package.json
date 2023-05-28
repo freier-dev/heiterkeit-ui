@@ -1,7 +1,11 @@
 {
   "name": "@freier-dev/heiterkeit-ui",
   "version": "0.1.0",
-  "description": "",
+  "description": "A Design System made in React and Tailwind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freier-dev/heiterkeit-ui.git"
+  },
   "source": "src/index.ts",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
