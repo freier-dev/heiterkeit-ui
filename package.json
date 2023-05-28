@@ -13,7 +13,9 @@
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Aro Andriamaro <mamitiana.dev.js@gmail.com>",
   "license": "MIT",
@@ -21,11 +23,21 @@
     "/dist"
   ],
   "devDependencies": {
+    "@babel/core": "^7.20.12",
     "@parcel/packager-ts": "^2.8.3",
     "@parcel/transformer-sass": "^2.8.3",
     "@parcel/transformer-typescript-types": "^2.8.3",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/manager-webpack4": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "@types/node": "^18.13.0",
     "@types/react": "^18.0.28",
+    "babel-loader": "^8.3.0",
     "parcel": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -39,5 +51,6 @@
   "volta": {
     "node": "16.19.0",
     "npm": "7.24.2"
-  }
+  },
+  "dependencies": {}
 }
