@@ -50,8 +50,9 @@
   },
   "scripts": {
     "build": "tsc && vite build",
-    "dev": "vite",
-    "preview": "vite preview",
+    "build:ladle": "ladle build",
+    "dev": "ladle serve",
+    "preview": "ladle preview",
     "test": "echo \"No test specified\""
   }
 }
