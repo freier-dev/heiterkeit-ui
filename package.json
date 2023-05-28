@@ -6,9 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/freier-dev/heiterkeit-ui.git"
   },
-  "types": "dist/types.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "/dist"
   ],
   "main": "./dist/heiterkeit-ui.umd.js",
   "module": "./dist/heiterkeit-ui.es.js",
